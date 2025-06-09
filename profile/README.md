@@ -153,13 +153,7 @@ JWT_SECRET=qhI6Q1ruJiuFxDVFVjF8vswHPfK8B/Dz5mkhY+0+bug\=
         
         `mkdir caddy`
         
-2. 프록스 규칙 생성
-    - caddy 파일에서 진행
-    - `Caddyfile` 생성
-        
-        handle_path /api/* : /api 부분을 자동으로 substring
-        
-        reverse_proxy : nginx 대체
+2. `Caddyfile` 생성
         
         ```bash
         
