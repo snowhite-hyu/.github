@@ -85,7 +85,9 @@
     
     vite_api_base_url : api 요청을 보내는 주소 
     
-    vite_asset_base_url : cdn 
+    vite_asset_base_url : cdn
+
+    vite_ws_base_url : websocket 요청을 보내는 주소
     
     content 전송 네트워크. 정적 데이터를 동적 데이터로 가져옴
     
@@ -93,9 +95,10 @@
     ```bash
     VITE_API_BASE_URL=https://server.snowhite-hyu.local/api
     VITE_ASSET_BASE_URL=http://127.0.0.1:8080
+    VITE_WS_BASE_URL=wss://server.snowhite-hyu.local/ws
     ```
     
-4. 프론트 실행
+5. 프론트 실행
     
     `npm run dev`
     
