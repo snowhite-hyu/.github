@@ -10,22 +10,23 @@
 
 ### 🗂️ 최종 산출물
 
-- Project Charter : 프로젝트의 목적, 범위, 주요 이해관계자, 일정, 예산 등을 간략히 요약한 문서입니다. 
+- Project Charter : 프로젝트의 목적, 범위, 주요 이해관계자, 일정, 예산 등을 간략히 요약한 문서입니다.
+  https://fixed-jelly-e4a.notion.site/Project-Charter-1ba6a93f7cbc80e9a668e0785564a4e6?source=copy_link
 
 - SRS : 시스템이 가져야 할 기능/비기능 요구사항들을 정리합니다.
+  https://fixed-jelly-e4a.notion.site/SRS-1c16a93f7cbc80eeb072c59274b8f4fa?source=copy_link
 
 - 활동 보고서 : 스프린트 회고와 교수님 피드백을 작성하였습니다.
-
+  https://fixed-jelly-e4a.notion.site/20d6a93f7cbc80378f0dce977c52759f?source=copy_link
 - API 명세 : REST/WebSocket API 설명입니다.
-
+  https://fixed-jelly-e4a.notion.site/API-20d6a93f7cbc80838ef0ffdaf8192142?source=copy_link
 - QA/QC : 품질 확보를 위해 여러 시나리오 상황에서의 테스트 결과입니다.
-
+  https://fixed-jelly-e4a.notion.site/QA-QC-20d6a93f7cbc80d7a09ec975a3a83e81?source=copy_link
 - CI/CD : 자동회된 빌드/배포 파이프라인입니다.
-
-- Figma : 프로토타입 디자인이 그려져 있습니다.  
+- FIGMA : 프로토타입 디자인이 그려져 있습니다.
 [<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma" />](https://www.figma.com/design/F4YIkyBFl8nnpVcqOKCxVS/snow-white?node-id=41-1343&t=j9gtRxDRN5XXAQVz-0)  
 
-- JIRA : 프로젝트를 어떻게 진행햇는지 관리 과정을 볼 수 있습니다.   
+- JIRA : 프로젝트를 어떻게 진행했는지 관리 과정을 볼 수 있습니다.   
 [<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira" />](https://snowhite.atlassian.net/jira/software/projects/SH/summary)
 
 
