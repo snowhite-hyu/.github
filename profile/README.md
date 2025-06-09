@@ -1,5 +1,35 @@
+# 사보타지 🧌
+팀 백설공주의 사보타지 프로토타입 구현 프로젝트 ^_^
 
-## TEST 방법
+### 🔎 개요
+
+🗓️  프로젝트 기간 :     2025.04.15~ 2025.06.10  
+👥  참여 인원 :        7명   
+🖥️  플랫폼 :     웹 (safari) 
+
+
+### 🗂️ 최종 산출물
+
+- Project Charter : 프로젝트의 목적, 범위, 주요 이해관계자, 일정, 예산 등을 간략히 요약한 문서입니다. 
+
+- SRS : 시스템이 가져야 할 기능/비기능 요구사항들을 정리합니다.
+
+- 활동 보고서 : 스프린트 회고와 교수님 피드백을 작성하였습니다.
+
+- API 명세 : REST/WebSocket API 설명입니다.
+
+- QA/QC : 품질 확보를 위해 여러 시나리오 상황에서의 테스트 결과입니다.
+
+- CI/CD : 자동회된 빌드/배포 파이프라인입니다.
+
+- Figma : 프로토타입 디자인이 그려져 있습니다.  
+[<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma" />](https://www.figma.com/design/F4YIkyBFl8nnpVcqOKCxVS/snow-white?node-id=41-1343&t=j9gtRxDRN5XXAQVz-0)  
+
+- JIRA : 프로젝트를 어떻게 진행햇는지 관리 과정을 볼 수 있습니다.   
+[<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira" />](https://snowhite.atlassian.net/jira/software/projects/SH/summary)
+
+
+## ⚒️ TEST 방법
 
 ### 로컬에서 프론트 실행
 
@@ -88,7 +118,7 @@ MYSQL_USERNAME={로컬 MYSQL USERNAME}
 MYSQL_PASSWORD={로컬 MYSQL PASSWORD}
 
 # JPA
-JPA_DDL=update
+JPA_DDL=create
 
 # REDIS
 REDIS_HOST=localhost
@@ -129,20 +159,21 @@ JWT_SECRET=qhI6Q1ruJiuFxDVFVjF8vswHPfK8B/Dz5mkhY+0+bug\=
         reverse_proxy : nginx 대체
         
         ```bash
+        
         server.snowhite-hyu.local {
         	tls internal
-        	handle_path /api/* {
-        	    reverse_proxy localhost:8080
-        	}
+        	reverse_proxy /api/* localhost:8080
+        	reverse_proxy /ws/* 127.0.0.1:8080 {
+        		header_up Connection "Upgrade"
+        		header_up Upgrade "websocket"
+            	}
         	reverse_proxy /* localhost:5173
         }
         ```
         
 3. caddy 실행
     
-     `./caddy_darwin_arm64 run --config Caddyfile`  or
-    
-    `caddy run --config Caddyfile`
+     `./caddy_darwin_arm64 run --config Caddyfile`  
     
 
 ---
@@ -156,3 +187,36 @@ JWT_SECRET=qhI6Q1ruJiuFxDVFVjF8vswHPfK8B/Dz5mkhY+0+bug\=
     `server.snowhite-hyu.local` 의 ip 가 `127.0.0.1` 라는 것을 알려줌
     
     `127.0.0.1       server.snowhite-hyu.local`
+
+---
+
+### 실행
+
+아래 페이지에서 실행 가능  
+[server.snowhite-hyu.local ](https://server.snowhite-hyu.local/main)
+
+
+
+## 🤖 Tools
+<div>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios" />
+  <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=Zustand" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=for-the-badge&logo=spring" />
+  <img src="https://img.shields.io/badge/WebSocket-35495E?style=for-the-badge&logo=websocket" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions" />
+  <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo" />
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes" />
+</div>
+
+
+
