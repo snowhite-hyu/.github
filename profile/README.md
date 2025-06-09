@@ -155,7 +155,7 @@ JWT_SECRET=qhI6Q1ruJiuFxDVFVjF8vswHPfK8B/Dz5mkhY+0+bug\=
         
 2. `Caddyfile` 생성
         
-        ```bash
+        
         
         server.snowhite-hyu.local {
         	tls internal
@@ -166,7 +166,7 @@ JWT_SECRET=qhI6Q1ruJiuFxDVFVjF8vswHPfK8B/Dz5mkhY+0+bug\=
             	}
         	reverse_proxy /* localhost:5173
         }
-        ```
+        
         
 3. caddy 실행
     
