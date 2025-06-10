@@ -1,5 +1,6 @@
 # 사보타지 🧌
-팀 백설공주의 사보타지 프로토타입 구현 프로젝트 ^_^
+팀 백설공주의 사보타지 프로토타입 구현 프로젝트 ^_^  
+-> 배포된 링크는 [여기!](https://dev.snowhite-hyu.duckdns.org/) 
 
 ### 🔎 개요
 
@@ -14,11 +15,15 @@
 
 - [SRS](https://fixed-jelly-e4a.notion.site/SRS-1c16a93f7cbc80eeb072c59274b8f4fa?source=copy_link) : 시스템이 가져야 할 기능/비기능 요구사항들을 정리합니다.
 
-- [활동 보고서](https://fixed-jelly-e4a.notion.site/20d6a93f7cbc80378f0dce977c52759f?source=copy_link) : 스프린트 회고와 교수님 피드백을 작성하였습니다.
+- [활동 보고서](https://fixed-jelly-e4a.notion.site/20d6a93f7cbc80378f0dce977c52759f?source=copy_link) : 스프린트 회고 및 피드백을 기록하였습니다.
   
 - [API 명세](https://fixed-jelly-e4a.notion.site/API-20d6a93f7cbc80838ef0ffdaf8192142?source=copy_link) : HTTP/WebSocket API 설명입니다.
+
+- [Git Convention](https://fixed-jelly-e4a.notion.site/Git-Convention-1cf6a93f7cbc80e1905df32be2836534?source=copy_link) : 깃허브 협업에 사용된 표준화된 기록 방식입니다.
   
 - [QA/QC](https://fixed-jelly-e4a.notion.site/QA-QC-20d6a93f7cbc80d7a09ec975a3a83e81?source=copy_link) : 품질 확보를 위해 여러 시나리오 상황에서의 테스트 결과입니다.
+
+- [API 명세서](https://fixed-jelly-e4a.notion.site/API-20d6a93f7cbc80838ef0ffdaf8192142?source=copy_link) : HTTP/WebSocket API 명세가 정리되어 있습니다.
   
 - [CI/CD](https://fixed-jelly-e4a.notion.site/CI-CD-20d6a93f7cbc80bda9aed0c4ad1c92b5?source=copy_link) : 자동회된 빌드/배포 파이프라인입니다.
   
@@ -28,6 +33,8 @@
  : 프로젝트를 어떻게 진행했는지 관리 과정을 볼 수 있습니다.   
 
 ## ⚒️ TEST 방법
+*테스트 진행 전, 프로토타입인 만큼 웹 페이지 새로고침, 앞/뒤로가기 기능은 삼가주시길 바랍니다!*  
+*사크릿 창에서 테스트 하는 것을 권장드립니다.* 
 
 ### 로컬에서 프론트 실행
 
