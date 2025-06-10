@@ -16,7 +16,7 @@
 
 - [활동 보고서](https://fixed-jelly-e4a.notion.site/20d6a93f7cbc80378f0dce977c52759f?source=copy_link) : 스프린트 회고와 교수님 피드백을 작성하였습니다.
   
-- [API 명세](https://fixed-jelly-e4a.notion.site/API-20d6a93f7cbc80838ef0ffdaf8192142?source=copy_link) : REST/WebSocket API 설명입니다.
+- [API 명세](https://fixed-jelly-e4a.notion.site/API-20d6a93f7cbc80838ef0ffdaf8192142?source=copy_link) : HTTP/WebSocket API 설명입니다.
   
 - [QA/QC](https://fixed-jelly-e4a.notion.site/QA-QC-20d6a93f7cbc80d7a09ec975a3a83e81?source=copy_link) : 품질 확보를 위해 여러 시나리오 상황에서의 테스트 결과입니다.
   
