@@ -20,7 +20,7 @@
   
 - [QA/QC](https://fixed-jelly-e4a.notion.site/QA-QC-20d6a93f7cbc80d7a09ec975a3a83e81?source=copy_link) : 품질 확보를 위해 여러 시나리오 상황에서의 테스트 결과입니다.
   
-- CI/CD : 자동회된 빌드/배포 파이프라인입니다.
+- [CI/CD](https://fixed-jelly-e4a.notion.site/CI-CD-20d6a93f7cbc80bda9aed0c4ad1c92b5?source=copy_link) : 자동회된 빌드/배포 파이프라인입니다.
   
 - [FIGMA](https://www.figma.com/design/F4YIkyBFl8nnpVcqOKCxVS/snow-white?node-id=41-1343&t=j9gtRxDRN5XXAQVz-0)  : 프로토타입 디자인이 그려져 있습니다.
   
